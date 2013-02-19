@@ -105,10 +105,14 @@ header {
 nav {
 	float: right;
 	margin: 0 0 30px 0;
+	line-height: ;
 }
 
 nav ul {
 	list-style: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
 }
 
 nav ul li {
@@ -126,6 +130,27 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a.active {
 	color: #99C100;
+}
+
+#toggle-nav {
+	display: block;
+	width: 30px;
+	height: 30px;
+	clear: both;
+	overflow: hidden;
+	display: none;
+}
+
+#toggle-nav span {
+	display: block;
+	width: 22px;
+	height: 2px;
+	margin: 4px auto 0;
+	background-color: #ffffff;
+}
+
+#toggle-nav span:first-child {
+	margin-top: 8px !important;
 }
 
 /* square system */

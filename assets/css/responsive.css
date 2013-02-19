@@ -1,28 +1,10 @@
-@media all and (max-width: 479px) {
-/*  .page-wrap {
-  	padding: 0;
-  }
-  
-  header {
-  	padding: 10px;
-  }
-  
-  .content-wrapper {
-  	padding: 10px;
-  }
-  
-  .col:nth-child(odd) {
-  	margin: 0px;
-  }*/
-}
-
 @media all and (max-width: 959px) {
 	.page-wrap {
 		padding: 0;
 	}
 	
 	header {
-		padding: 20px 10px;
+		padding: 20px 10px 0;
 	}
 	
 	.content-wrapper {
@@ -30,6 +12,6 @@
 	}
 	
 	.col:nth-child(odd) {
-		margin: 0px ;
+		margin: 0px;
 	}
 }
