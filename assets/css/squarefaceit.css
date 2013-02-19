@@ -75,26 +75,24 @@ hr {
 /* Global Page Styles */
 
 .page-wrap {
-	width: 960px;
+	max-width: 940px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 10px;
 }
 
-.full-screen {
-	width: auto;
-	padding: 10px;
-	overflow: hidden;
+.content-wrapper {
+	margin: 0 0 20px 0;
 }
 
 .container {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 0px;
 	overflow: hidden;
 }
 
 header {
-	padding: 20px 0 0 0;
+	padding: 10px 0 0 0;
 	display: block;
 	overflow: hidden;
 }
@@ -134,24 +132,24 @@ nav ul li a.active {
 
 .col {
 	margin: 0;
-	width: 324px;
+	width: 310px;
 	float: left;
 	overflow: hidden;
 }
 
-.page-wrap .col-first {
-	margin: 0 0 0 -12px;
+.col:first-child {
+	margin: 0 0 0 -10px;
 }
 
 .sq {
 	display: block;
-	width: 150px;
-	height: 150px;
+	width: 145px;
+	height: 145px;
 	float: left;
 	background: #f6f6f6;
 	padding: 0;
 	overflow: hidden;
-	margin: 0 0 12px 12px;
+	margin: 0 0 10px 10px;
 	position: relative;
 }
 
@@ -163,23 +161,23 @@ nav ul li a.active {
 }
 
 .sq-doubled {
-	width: 312px;
-	height: 312px;
+	width: 300px;
+	height: 300px;
 }
 
 .sq-tall {
-	width: 150px;
-	height: 312px;
+	width: 145px;
+	height: 300px;
 }
 
 .sq-wide {
-	width: 312px;
-	height: 150px;
+	width: 300px;
+	height: 145px;
 }
 
 .sq-mini {
-	width: 69px;
-	height: 69px;
+	width: 67px;
+	height: 67px;
 }
 
 .labels {
@@ -201,7 +199,7 @@ nav ul li a.active {
 .icon-sm {
 	font-size: 32px;
 	text-align: center;
-	line-height: 69px;
+	line-height: 67px;
 }
 
 .icon-tr {
