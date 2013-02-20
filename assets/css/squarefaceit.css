@@ -108,8 +108,7 @@ header {
 
 nav {
 	float: right;
-	margin: 0 0 30px 0;
-	line-height: ;
+	margin: 10px 0 20px 0;
 }
 
 nav ul {
@@ -137,11 +136,14 @@ nav ul li a.active {
 }
 
 #toggle-nav {
-	display: block;
+	position: absolute;
+	right: 10px;
+	top: 20px;
 	width: 30px;
 	height: 30px;
 	clear: both;
 	overflow: hidden;
+	cursor: pointer;
 	display: none;
 }
 

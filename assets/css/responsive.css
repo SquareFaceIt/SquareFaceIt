@@ -19,3 +19,44 @@
 		margin: 0;
 	}
 }
+
+@media all and (max-width: 479px) {
+	#toggle-nav {
+		display: block;
+	}
+	
+	nav {
+		float: none;
+		margin: 0;
+		display: block;
+		clear: both;
+		padding: 10px 0;
+	}
+	
+	nav ul {
+		display: block;
+	}
+	
+	nav ul li {
+		display: block;
+		clear: both;
+		width: 100%;
+		background: #f6f6f6;
+	}
+	
+	nav ul li a {
+		display: block;
+		margin: 0;
+		padding: 10px;
+	}
+	
+	nav ul li a:hover {
+		color: #99C100;
+		background-color: #efefef;
+	}
+	
+	nav ul li a.active {
+		color: #ffffff;
+		background-color: #99C100;
+	}
+}
