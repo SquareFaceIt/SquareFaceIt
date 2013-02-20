@@ -1,10 +1,10 @@
 
-SquareFaceIt
-============
+![image](http://squarefaceit.github.com/SquareFaceIt/assets/img/logo.png)
+
 
 ##Welcome lets Face it metro design style are cool.
 
-## Issue submission
+## Browser Support
 Squarefaceit supports most popular web browsers.
 
 Authors
