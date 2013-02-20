@@ -2,7 +2,7 @@
 ![image](http://squarefaceit.github.com/SquareFaceIt/assets/img/logo.png)
 
 
-## Welcome friend. You like Metro design paterns as much as we do?
+## Welcome friend. You like Metro design patterns as much as we do?
 
 Squarefaceit is a css3 and html5 framework. Think of it as a starting point to get your website up and running quickly.
 
