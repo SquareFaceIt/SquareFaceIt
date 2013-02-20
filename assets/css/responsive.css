@@ -14,4 +14,8 @@
 	.col:nth-child(odd) {
 		margin: 0px;
 	}
+	
+	.sq-mini-group.no-margin {
+		margin: 0;
+	}
 }

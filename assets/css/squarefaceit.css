@@ -72,6 +72,10 @@ hr {
 	clear: both;
 }
 
+.sq-mini-group.no-margin {
+	margin: 0 0 0 -10px;
+}
+
 /* Global Page Styles */
 
 .page-wrap {
@@ -157,9 +161,13 @@ nav ul li a.active {
 
 .col {
 	margin: 0;
-	width: 310px;
+	width: 145px;
 	float: left;
 	overflow: hidden;
+}
+
+.col-2 {
+	width: 310px;
 }
 
 .col:first-child {
