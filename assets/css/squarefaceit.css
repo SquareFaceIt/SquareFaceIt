@@ -222,6 +222,7 @@ nav ul li a.active {
 .sq-mini-group {
 	display: block;
 	width: 155px;
+	float: left;
 }
 
 .labels {
