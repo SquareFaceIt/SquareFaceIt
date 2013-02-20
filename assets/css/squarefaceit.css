@@ -84,6 +84,10 @@ hr {
 	padding: 10px;
 }
 
+.full-screen-wrap {
+	padding: 20px;
+}
+
 .content-wrapper {
 	margin: 0 0 20px 0;
 }
@@ -213,6 +217,11 @@ nav ul li a.active {
 .sq-mini {
 	width: 67px;
 	height: 67px;
+}
+
+.sq-mini-group {
+	display: block;
+	width: 155px;
 }
 
 .labels {
