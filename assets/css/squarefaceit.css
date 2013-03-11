@@ -534,6 +534,91 @@ nav ul li a.active {
 	color: #ffffff;
 }
 
+/* buttons */
+
+.btn {
+	border: none;
+	padding: 10px 20px;
+	min-width: 100px;
+	margin: 0 10px 10px 0;
+	outline: none;
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+}
+
+.button-group {
+	display: inline-block;
+	margin: 0 0 20px 0;
+	font-size: 0;
+}
+
+.button-group .btn {
+	margin: 0 0 0 -1px;
+	font-size: 12px;
+	min-width: 0;
+}
+
+.button-group .btn:first-child {
+	margin: 0;
+}
+
+.button-group .white {
+	border: 1px solid #f0f0f0;
+}
+
+.button-nav {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	border: none;
+	margin: 0 0 20px 0;
+}
+
+.button-nav .btn {
+	margin: 0;
+	display: block;
+	padding: 10px 0;
+	min-width: 0;
+}
+
+.button-nav .span-4 {
+	width: 25%;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+.button-nav .pink {
+	color: #ffffff;
+	text-decoration: none;
+	-moz-box-shadow: inset 0 -1px 0 #ffffff, inset 1px 1px 0 #ffffff;
+	-webkit-box-shadow: inset 0 -1px 0 #ffffff, inset 1px 1px 0 #ffffff;
+	box-shadow: inset 0 -1px 0 #ffffff, inset 1px 1px 0 #ffffff;
+}
+
+.button-nav .span-4:last-child .pink {
+	-moz-box-shadow: inset -1px -1px 0 #ffffff, inset 1px 1px 0 #ffffff;
+	-webkit-box-shadow: inset -1px -1px 0 #ffffff, inset 1px 1px 0 #ffffff;
+	box-shadow: inset -1px -1px 0 #ffffff, inset 1px 1px 0 #ffffff;
+}
+
+.button-nav .span-5 {
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+.button-nav .span-3 {
+	width: 33.3%;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
 
 
 
