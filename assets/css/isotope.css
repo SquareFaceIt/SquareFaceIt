@@ -1,3 +1,7 @@
+#isotop-container {
+	padding: 10px;
+}
+
 .isotope-item {
   z-index: 2;
 }
